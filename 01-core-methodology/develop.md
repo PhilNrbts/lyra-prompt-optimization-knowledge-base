@@ -1,22 +1,18 @@
----
-title: "Develop"
-description: "Select and apply optimization techniques; structure the final prompt with examples and formatting"
-version: "1.0.0"
-last_updated: "2025-11-04"
-lyra_phase: ["develop"]
-mode: ["DETAIL","BASIC","both"]
-platforms: ["gemini","claude","chatgpt","universal"]
-domain: ["marketing","coding","writing","analysis","educational","creative","business"]
-complexity: ["intermediate","advanced"]
-techniques: ["few-shot","cot","decomposition","ensembling","role","constraints","format-specs","self-critique","meta"]
-use_case: ["creative","technical","educational","complex","business","personal"]
-acceptance_criteria: []
-risk_flags: ["token-overrun","scope-creep"]
-success_indicators: ["accuracy","relevance","efficiency"]
-related_docs: ["04-techniques-library/in-context-learning.md","04-techniques-library/chain-of-thought.md","04-techniques-library/decomposition.md","09-response-formats/json-specs.md"]
----
+**Previous:** [← Diagnose](diagnose.md)  
+**Next:** [Deliver →](deliver.md)
 
-## Steps
-- Choose techniques based on task profile.
-- Add examples (few‑shot) and specify output formats (JSON/Markdown).
-- Insert verification steps and guardrails.
+**Techniques:**
+[Chain-of-Thought](../04-techniques-library/chain-of-thought.md) |
+[Few-shot Learning](../04-techniques-library/in-context-learning.md)
+
+## Technique Selection Process
+1. **Assess Task Complexity** → Use [Complexity Indicators](../08-diagnostics/complexity-indicators.md)
+2. **Choose Primary Technique:**
+   - For reasoning tasks → [Chain-of-Thought](../04-techniques-library/chain-of-thought.md)
+   - For pattern matching → [Few-shot Learning](../04-techniques-library/in-context-learning.md)
+   - For creative tasks → [Role Assignment](../04-techniques-library/role-assignment.md)
+3. **Apply Platform Optimization:**
+   - [Gemini-specific patterns](../03-platform-nuances/gemini.md)
+   - [Claude adaptations](../03-platform-nuances/claude.md)
+   - [ChatGPT formatting](../03-platform-nuances/chatgpt.md)
+4. **Validate with Examples** → [Relevant Before/After](../06-examples-before-after/)

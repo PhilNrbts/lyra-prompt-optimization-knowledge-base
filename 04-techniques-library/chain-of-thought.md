@@ -1,20 +1,12 @@
----
-title: "Chain-of-Thought"
-description: "Eliciting reasoning: step-by-step, step-back, and thread-of-thought variants"
-version: "1.0.0"
-last_updated: "2025-11-04"
-lyra_phase: ["develop"]
-mode: ["DETAIL","BASIC","both"]
-platforms: ["universal"]
-domain: ["technical","analysis","educational"]
-complexity: ["intermediate","advanced"]
-techniques: ["cot"]
-use_case: ["technical","educational","complex"]
-acceptance_criteria: []
-risk_flags: []
-success_indicators: ["accuracy","consistency"]
-related_docs: ["04-techniques-library/ensembling.md","04-techniques-library/decomposition.md"]
----
+## Platform Applications
+- **Gemini:** [Multi-perspective CoT patterns](../03-platform-nuances/gemini.md#reasoning-frameworks)
+- **Claude:** [Long-context CoT strategies](../03-platform-nuances/claude.md#narrative-reasoning)
+- **ChatGPT:** [Structured CoT outputs](../03-platform-nuances/chatgpt.md#stepwise-instructions)
 
-## Variants
-- Step-by-step, Step-back prompting, Self-consistency sampling, CoVe/verification.
+## Related Techniques
+- **Combine with:** [Few-shot Learning](few-shot.md)   [Role Assignment](role-assignment.md)
+- **Alternative:** [Zero-shot approaches](in-context-learning.md#zero-shot)
+
+## Examples in Practice
+- **Creative:** [Fiction Writing Examples](../06-examples-before-after/creative/character-development.md)
+- **Technical:** [Code Generation Examples](../06-examples-before-after/technical/api-documentation.md)

@@ -1,22 +1,8 @@
----
-title: "Gemini Nuances"
-description: "Platform-specific prompting strategies for Gemini (multimodal, perspectives, real-time)"
-version: "1.0.0"
-last_updated: "2025-11-04"
-lyra_phase: ["develop","deliver"]
-mode: ["DETAIL","BASIC","both"]
-platforms: ["gemini"]
-domain: ["creative","analysis","technical","business"]
-complexity: ["beginner","intermediate","advanced"]
-techniques: ["few-shot","cot","decomposition","format-specs","role"]
-use_case: ["creative","technical","educational","complex","business","personal"]
-acceptance_criteria: []
-risk_flags: ["token-overrun"]
-success_indicators: ["accuracy","efficiency","satisfaction"]
-related_docs: ["03-platform-nuances/context-windows.md","03-platform-nuances/feature-comparison-matrix.md"]
----
+## Related Resources
+- **Implementation:** [Gemini Gem Architecture](../02-gemini-gem-integration/architecture.md)
+- **Case Study:** [Multimodal Gemini Example](../10-case-studies/multimodal-gemini.md)
+- **Templates:** [Creative Templates](../07-templates/creative/)   [Analysis Templates](../07-templates/analysis/)
 
-## Patterns
-- Invoke multi-perspective analysis (compare/contrast) to boost breadth.
-- Leverage multimodal inputs (images/data) where applicable.
-- Use structured outputs for integrations; validate with schemas.
+## Platform Applications
+- **Chain-of-Thought:** [Multi-perspective CoT patterns](#reasoning-frameworks)
+- **Few-shot Learning:** [Gemini-specific examples](#few-shot-examples)
