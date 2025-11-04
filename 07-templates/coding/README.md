@@ -1,21 +1,9 @@
-# Templates - Coding
+---
+title: "Coding Templates"
+...
+---
 
-This directory contains prompt templates for coding tasks including:
-
-- Function generation templates
-- Code review frameworks
-- Documentation generation guides
-- Debugging assistance prompts
-- Testing scenario creation
-- API design templates
-- Code refactoring guides
-
-Each template includes:
-- YAML front-matter with metadata
-- Template structure and variables
-- Usage examples and guidelines
-- Platform-specific adaptations
-- Success metrics and validation
-
-## Coming Soon
-Templates will be added following the completion of the knowledge base structure.
+## Related
+- Examples: [Technical before/after](../06-examples-before-after/technical/README.md)
+- Techniques: [Constraint-based](../04-techniques-library/constraint-based.md), [Verification blocks](../09-response-formats/verification-blocks.md)
+- Platform: [ChatGPT nuances](../03-platform-nuances/chatgpt.md#patterns)

@@ -1,21 +1,9 @@
-# Templates - Marketing
+---
+title: "Marketing Templates"
+...
+---
 
-This directory contains prompt templates for marketing tasks including:
-
-- Email campaign frameworks
-- Social media content structures
-- Ad copy optimization templates
-- Brand voice consistency guides
-- Customer journey mapping prompts
-- Content marketing frameworks
-- SEO optimization templates
-
-Each template includes:
-- YAML front-matter with metadata
-- Template structure and variables
-- Usage examples and guidelines
-- Platform-specific adaptations
-- Success metrics and validation
-
-## Coming Soon
-Templates will be added following the completion of the knowledge base structure.
+## Related
+- Examples: [Business before/after](../06-examples-before-after/business/README.md)
+- Techniques: [Few-shot](../04-techniques-library/in-context-learning.md), [Output specs](../04-techniques-library/output-specs.md)
+- Platform: [Gemini creative](../03-platform-nuances/gemini.md#patterns)
