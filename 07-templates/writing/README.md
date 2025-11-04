@@ -1,21 +1,12 @@
 # Templates - Writing
 
-This directory contains prompt templates for writing tasks including:
+## Template Categories
+- [Blog Posts](blog-posts.md)
+- [Article Outlines](article-outlines.md)
+- [SEO Content](seo-templates.md)
+- [Tone & Style](tone-style-guides.md)
 
-- Blog post structure templates
-- Article outline generators
-- SEO optimization prompts
-- Audience-specific tone guides
-- Editorial calendar planning
-- Content editing frameworks
-- Style guide applications
-
-Each template includes:
-- YAML front-matter with metadata
-- Template structure and variables
-- Usage examples and guidelines
-- Platform-specific adaptations
-- Success metrics and validation
-
-## Coming Soon
-Templates will be added following the completion of the knowledge base structure.
+## Related Sections
+- **Examples:** [Creative Before/After](../../06-examples-before-after/creative/README.md)
+- **Techniques:** [Role Assignment](../../04-techniques-library/role-assignment.md) | [Few-shot Learning](../../04-techniques-library/in-context-learning.md)
+- **Platform Notes:** [Claude Narrative](../../03-platform-nuances/claude.md#narrative-reasoning)
