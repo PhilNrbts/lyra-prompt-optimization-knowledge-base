@@ -1,21 +1,12 @@
 # Templates - Analysis
 
-This directory contains prompt templates for analytical tasks including:
+## Template Categories
+- [Research Synthesis](research-synthesis.md)
+- [Comparison & Evaluation](comparison-evaluation.md)
+- [Trend Analysis](trend-analysis.md)
+- [Report Generation](report-generation.md)
 
-- Data analysis frameworks
-- Research synthesis templates
-- Comparison and evaluation guides
-- Statistical interpretation prompts
-- Trend analysis structures
-- Report generation templates
-- Insight extraction frameworks
-
-Each template includes:
-- YAML front-matter with metadata
-- Template structure and variables
-- Usage examples and guidelines
-- Platform-specific adaptations
-- Success metrics and validation
-
-## Coming Soon
-Templates will be added following the completion of the knowledge base structure.
+## Related Sections
+- **Examples:** [Complex Before/After](../../06-examples-before-after/complex/README.md)
+- **Techniques:** [Chain-of-Thought](../../04-techniques-library/chain-of-thought.md) | [Decomposition](../../04-techniques-library/decomposition.md)
+- **Platform Notes:** [Gemini Analysis](../../03-platform-nuances/gemini.md#patterns)

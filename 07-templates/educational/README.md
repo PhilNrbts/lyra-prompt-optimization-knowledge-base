@@ -1,21 +1,12 @@
 # Templates - Educational
 
-This directory contains prompt templates for educational tasks including:
+## Template Categories
+- [Lesson Plans](lesson-plans.md)
+- [Assessments](assessments.md)
+- [Learning Objectives](learning-objectives.md)
+- [Scaffolding](scaffolding.md)
 
-- Lesson plan frameworks
-- Assessment generation templates
-- Learning objective alignment guides
-- Scaffolding design prompts
-- Curriculum development structures
-- Student feedback templates
-- Educational content creation
-
-Each template includes:
-- YAML front-matter with metadata
-- Template structure and variables
-- Usage examples and guidelines
-- Platform-specific adaptations
-- Success metrics and validation
-
-## Coming Soon
-Templates will be added following the completion of the knowledge base structure.
+## Related Sections
+- **Examples:** [Educational Before/After](../../06-examples-before-after/educational/README.md)
+- **Techniques:** [In-Context Learning](../../04-techniques-library/in-context-learning.md) | [Output Specs](../../04-techniques-library/output-specs.md)
+- **Platform Notes:** [Claude Long Context](../../03-platform-nuances/claude.md)

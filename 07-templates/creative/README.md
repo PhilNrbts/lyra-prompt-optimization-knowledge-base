@@ -1,21 +1,12 @@
 # Templates - Creative
 
-This directory contains prompt templates for creative tasks including:
+## Template Categories
+- [Story Structures](story-structures.md)
+- [Character Development](character-templates.md)
+- [World-Building](world-building.md)
+- [Dialogue Frameworks](dialogue-frameworks.md)
 
-- Story structure frameworks
-- Character development templates
-- World-building guides
-- Creative brief structures
-- Narrative arc templates
-- Dialogue generation prompts
-- Creative constraint frameworks
-
-Each template includes:
-- YAML front-matter with metadata
-- Template structure and variables
-- Usage examples and guidelines
-- Platform-specific adaptations
-- Success metrics and validation
-
-## Coming Soon
-Templates will be added following the completion of the knowledge base structure.
+## Related Sections
+- **Examples:** [Creative Before/After](../../06-examples-before-after/creative/README.md)
+- **Techniques:** [Role Assignment](../../04-techniques-library/role-assignment.md) | [Few-shot Learning](../../04-techniques-library/in-context-learning.md)
+- **Platform Notes:** [Gemini Creative](../../03-platform-nuances/gemini.md#patterns)
