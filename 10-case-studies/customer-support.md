@@ -1,20 +1,9 @@
 ---
 title: "Customer Support Case Study"
-description: "Applying Lyra to improve customer support chatbot performance"
-version: "1.0.0"
-last_updated: "2025-11-04"
-lyra_phase: ["deconstruct","diagnose","develop","deliver"]
-mode: ["DETAIL"]
-platforms: ["universal"]
-domain: ["business"]
-complexity: ["intermediate"]
-techniques: []
-use_case: ["business","complex"]
-acceptance_criteria: []
-risk_flags: ["compliance"]
-success_indicators: ["satisfaction"]
-related_docs: ["10-case-studies/template.md"]
+...
 ---
 
-## Summary
-- Demonstrates multi-turn clarification, role assignment, and format specs to raise CSAT.
+## Links
+- Techniques used: [Role assignment](../04-techniques-library/role-assignment.md), [Output specs](../04-techniques-library/output-specs.md)
+- Diagnostics: [Clarity criteria](../08-diagnostics/clarity-criteria.md)
+- Platform notes: [ChatGPT nuances](../03-platform-nuances/chatgpt.md)
